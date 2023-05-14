@@ -28,6 +28,7 @@ module.exports = {
       'error',
       process.platform === 'win32' ? 'windows' : 'unix'
     ],
+    'no-console': 'off',
     quotes: [
       'error',
       'single'
@@ -44,7 +45,6 @@ module.exports = {
     'arrow-spacing': [
       'error', { before: true, after: true }
     ],
-    'no-console': 'warn',
     'react/prop-types': 0
   }
 }
